@@ -31,10 +31,11 @@ sass:
         sass_dir: _sass
 
 # Build settings
-remote_theme: "ed."
-theme: "ed." 
+remote_theme: cayman
+theme: cayman
 plugins:
   - jekyll-feed
+  - jekyll-theme-cayman
 
 # Exclude from processing.
 # The following items will not be processed, by default.
