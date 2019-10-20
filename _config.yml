@@ -31,8 +31,8 @@ sass:
         sass_dir: _sass
 
 # Build settings
-remote_theme: thelehhman/texture
-theme: texture 
+remote_theme: "ed."
+theme: "ed." 
 plugins:
   - jekyll-feed
 
