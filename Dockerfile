@@ -1,9 +1,10 @@
 FROM ruby:latest
 
-RUN bundle config --global frozen 1
-RUN gem install jekyll
+ADD . /homepage
+RUN gem install jekyll bundler
 
 WORKDIR /homepage
+RUN bundle
 
 CMD ["/bin/bash"]
 
