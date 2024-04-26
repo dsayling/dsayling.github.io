@@ -4,13 +4,12 @@
     "label": "DevOps Connoisseur, Python Enthusiast, System Architect",
     "picture": "avatar.jpg",
     "email": "dsayling@gmail.com",
-    "phone": "+1 210-570-6481",
     "website": "TBD",
     "summary": "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in DevOps, Software Architecture, Automated Software Testing, Software Delivery, and Compliance Testing. Core values in product focused delivery and bridging communication gaps between development, quality, release, and support in Enterprise agile environments. Likes the feel of startups. macOS/Linux guy that runs WSL if I must. Python Developer that used to dabble in C++, Perl, and JS. DevOps is for the enterprise and for the developer. Believer in delivering value to customers, whether internal or external. I love spending my days helping people.",
     "location": {
-      "address": "123 Main St",
-      "postalCode": "80301",
-      "city": "Westminster",
+      "address": "Arvada / Broomfield / Westminster",
+      "postalCode": "80021",
+      "city": "Denver Metro Area",
       "countryCode": "US",
       "region": "Colorado"
     },
@@ -28,12 +27,41 @@
     ]
   },
   "work": [{
+    "company": "Ford Motor Company",
+    "position": "Staff Software Engineer",
+    "website": "http://ford.com",
+    "startDate": "2021-03-15",
+    "endDate": "2023-04-15",
+    "summary": "Replace this tiny tool called PREEVision",
+    "highlights": []
+  },{
+    "company": "Teladoc Health",
+    "position": "Staff Software Engineer",
+    "website": "http://teladochealth.com",
+    "startDate": "2021-03-15",
+    "endDate": "2023-04-15",
+    "summary": "Leading automation architecture team for the chronic care management group. Supporting test reporting, CI integrations, testing libraries, development pipelines and more.",
+    "highlights": [
+      "Leading the automation architecture team to re-architect existing test frameworks to align newly acquired product’s delivery with the larger Teladoc org to reduce automation duplication and scale product delivery.",
+      "Leading an automation guild to present vision, intent, best practices, and architectural runway for testing and automation.",
+      "Created automated tooling to connect Teladoc’s automated test cases with TestRail’s test case management software to measure requirements and functional coverage. Contributing to open source projects to support this effort.",
+      "Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.",
+      "Creating and maintaining test automation libraries for Livongo (Chronic Care Management) (acquired by Teladoc in 2020) products including web, mobile, backend, and ETL."
+    ]
+  },{
     "company": "CircleCI",
     "position": "Community & Partner Engineer",
     "website": "http://circleci.dev",
     "startDate": "2020-06-08",
+    "endDate": "2021-03-15",
     "summary": "Working with customers and partners in our open-source community to produce and maintain CircleCI ecosystem assets.",
-    "highlights": []
+    "highlights": [
+      "Launched the CircleCI Developer Hub, a K8s microsite for CircleCI assets (Docker images and CI integrations), as a full-stack developer in React and Go.",
+      "Created and maintained CI libraries for dozens of languages and frameworks, e.g. Ruby, GKE, Python, Terraform, used by thousands of runs daily.",
+      "Supported open source community Docker images spanning various languages and frameworks, e.g. Python, Ruby, Android, Selenium, for use on CircleCI, each being used in almost 100,000 runs a week.",
+      "Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.",
+      "Primary lead on restructuring CircleCI sample apps and configuration files to improve CircleCI onboarding experience."
+    ]
   },{
     "company": "NetApp - SolidFire",
     "position": "Sr. Software Engineer",
