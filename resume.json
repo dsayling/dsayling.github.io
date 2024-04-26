@@ -27,17 +27,17 @@
     ]
   },
   "work": [{
-    "company": "Ford Motor Company",
+    "name": "Ford Motor Company",
     "position": "Staff Software Engineer",
-    "website": "http://ford.com",
+    "url": "http://ford.com",
     "startDate": "2021-03-15",
     "endDate": "2023-04-15",
     "summary": "Replace this tiny tool called PREEVision",
     "highlights": []
   },{
-    "company": "Teladoc Health",
+    "name": "Teladoc Health",
     "position": "Staff Software Engineer",
-    "website": "http://teladochealth.com",
+    "url": "http://teladochealth.com",
     "startDate": "2021-03-15",
     "endDate": "2023-04-15",
     "summary": "Leading automation architecture team for the chronic care management group. Supporting test reporting, CI integrations, testing libraries, development pipelines and more.",
@@ -49,9 +49,9 @@
       "Creating and maintaining test automation libraries for Livongo (Chronic Care Management) (acquired by Teladoc in 2020) products including web, mobile, backend, and ETL."
     ]
   },{
-    "company": "CircleCI",
+    "name": "CircleCI",
     "position": "Community & Partner Engineer",
-    "website": "http://circleci.dev",
+    "url": "http://circleci.dev",
     "startDate": "2020-06-08",
     "endDate": "2021-03-15",
     "summary": "Working with customers and partners in our open-source community to produce and maintain CircleCI ecosystem assets.",
@@ -63,9 +63,9 @@
       "Primary lead on restructuring CircleCI sample apps and configuration files to improve CircleCI onboarding experience."
     ]
   },{
-    "company": "NetApp - SolidFire",
+    "name": "NetApp - SolidFire",
     "position": "Sr. Software Engineer",
-    "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "url": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
     "startDate": "2019-06-15",
     "endDate": "2020-06-08",
     "summary": "DevOps Architect for the NetApp/SoldFire AFA and HCI product. Automation Architect.",
@@ -77,9 +77,9 @@
       "Architected organizational value stream alignment with other system architects and SAFe practitioners to restructure the teams around value in order to increase delivery to the customer by a factor of 6."
     ]
   },{
-    "company": "NetApp - SolidFire",
+    "name": "NetApp - SolidFire",
     "position": "Software Engineer",
-    "website": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "url": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
     "startDate": "2015-07-15",
     "endDate": "2019-06-15",
     "summary": "Started at SolidFire pre-acquisition, seeing the changes of small start-up to large enterprise from a test automation engineer's pespective",
@@ -90,9 +90,9 @@
       "Designed and developed REST API SDK for external test case management software for use across multiple teams."
     ]
   },{
-    "company": "Southwest Research Institute",
+    "name": "Southwest Research Institute",
     "position": "Research Engineer",
-    "website": "http://swri.org",
+    "url": "http://swri.org",
     "startDate": "2014-09-15",
     "endDate": "2015-07-15",
     "summary": "Continued standards developement and began taking leadership oppurtunities within the project space.",
@@ -102,9 +102,9 @@
       "Project Manager for a $50k internal research project to develop cost effective, micro embedded VICTORY adapters"
     ]
   },{
-    "company": "Southwest Research Institute",
+    "name": "Southwest Research Institute",
     "position": "Engineer",
-    "website": "http://swri.org",
+    "url": "http://swri.org",
     "startDate": "2012-01-10",
     "endDate": "2014-09-15",
     "summary": "First position post graduation. Worked to test and integrate boost/libqt C++ code base and real systems on vehicles.",
@@ -114,9 +114,9 @@
       "Assistant project manager and engineer for a combat vehicle high performance video bus architecture."
     ]
   },{
-    "company": "XFAB",
+    "name": "XFAB",
     "position": "Intern",
-    "website": "http://xfab.com",
+    "url": "http://xfab.com",
     "startDate": "2012-01-15",
     "endDate": "2012-06-15",
     "summary": "High voltage and GaN substrate applied research",
@@ -129,14 +129,14 @@
   "volunteer": [{
     "organization": "Historic Boulder",
     "position": "Volunteer",
-    "website": "http://historicboulder.org/",
+    "url": "http://historicboulder.org/",
     "startDate": "2019-11-10",
     "summary": "Event volunteer and tech support volunteer",
     "highlights": []
   },{
     "organization": "Alamo Regional Science Fair",
     "position": "Volunteer Judge",
-    "website": "http://arase.org/",
+    "url": "http://arase.org/",
     "startDate": "2013-06-15",
     "endDate": "2014-02-15",
     "summary": "Volunteered at multiple science fairs judging Math, Engineering, and Computer Science projects.",
@@ -159,26 +159,25 @@
     "name": "Development",
     "level": "Well enough",
       "keywords": [
-        "Python, C++, Bash",
-        "Linux, OSX",
-        "Docker, Swarm, Kubernetes",
-        "Saltstack, Ansible, Terraform",
-        "VMWare/ESX, Hyper-V, Parallels, Vagrant",
-        "Jenkins, TravisCI, GitLab CI"
+        "Python", "C++", "Bash",
+        "Linux / OSX",
+        "Docker / Kubernetes",
+        "Saltstack / Ansible / Terraform",
+        "Jenkins / CircleCI / Github Actions"
       ]
   },
   {
   "name": "Competencies",
   "level": "Well enough",
     "keywords": ["DevOps", "Value Stream", "Process Automation", "Web Services", "Open Standards",
-      "Software Testing", "Scaled Agile, SAFe", "System Architecture", "Storage Appliances", "Embedded Systems", "Software Integration", "Value Streams"
+      "Software Testing", "Scaled Agile / SAFe", "System Architecture", "Storage Appliances", "Embedded Systems", "Software Integration", "Value Streams"
     ]
   }],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
   }],
-  "interests": [{"name": "Hiking"},{"name": "Baking"},{"name": "Pizza"},{"name": "My Dog"}
+  "interests": [{"name": "Hiking"},{"name": "Baking"},{"name": "Pizza"},{"name": "My Dogs"}
   ],
   "references": [{
     "name": "Available upon request"
