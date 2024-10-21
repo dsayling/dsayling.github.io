@@ -1,1097 +1,800 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Drew Ayling</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z1lat9');
-  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
-    url('fonts/icomoon.woff?z1lat9') format('woff'),
-    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Drew Ayling</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
 }
 
-.icon-gitlab .path1:before {
-  content: "\e906";
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path2:before {
-  content: "\e907";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-gitlab .path3:before {
-  content: "\e908";
-  margin-left: -1em;
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path4:before {
-  content: "\e909";
-  margin-left: -1em;
-  color: rgb(252, 163, 38);
-}
-.icon-gitlab .path5:before {
-  content: "\e90a";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-gitlab .path6:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: rgb(252, 109, 38);
-}
-.icon-gitlab .path7:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: rgb(252, 163, 38);
-}
-.icon-gitlab .path8:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(226, 67, 41);
-}
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
-}
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
-}
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
-}
-.icon-blogger:before {
-  content: "\e900";
-}
-.icon-exercism:before {
-  content: "\e601";
-}
-.icon-telegram:before {
-  content: "\e904";
-}
-.icon-flickr:before {
-  content: "\f16e";
-}
-.icon-medium:before {
-  content: "\f23a";
-}
-.icon-heart:before {
-  content: "\f004";
-}
-.icon-book:before {
-  content: "\f02d";
-}
-.icon-linkedin:before {
-  content: "\f08c";
-}
-.icon-twitter:before {
-  content: "\f099";
-}
-.icon-github:before {
-  content: "\f09b";
-}
-.icon-link:before {
-  content: "\f0c1";
-}
-.icon-bars:before {
-  content: "\f0c9";
-}
-.icon-pinterest:before {
-  content: "\f0d2";
-}
-.icon-googleplus:before {
-  content: "\f0d5";
-}
-.icon-circle:before {
-  content: "\f111";
-}
-.icon-code:before {
-  content: "\f121";
-}
-.icon-youtube:before {
-  content: "\f167";
-}
-.icon-stackoverflow:before {
-  content: "\f16c";
-}
-.icon-bitbucket:before {
-  content: "\f171";
-}
-.icon-tumblr:before {
-  content: "\f173";
-}
-.icon-dribbble:before {
-  content: "\f17d";
-}
-.icon-skype:before {
-  content: "\f17e";
-}
-.icon-foursquare:before {
-  content: "\f180";
-}
-.icon-gittip:before {
-  content: "\f184";
-}
-.icon-gratipay:before {
-  content: "\f184";
-}
-.icon-stackexchange:before {
-  content: "\f18d";
-}
-.icon-vimeo:before {
-  content: "\f194";
-}
-.icon-graduation-cap:before {
-  content: "\f19d";
-}
-.icon-language:before {
-  content: "\f1ab";
-}
-.icon-child:before {
-  content: "\f1ae";
-}
-.icon-behance:before {
-  content: "\f1b5";
-}
-.icon-spotify:before {
-  content: "\f1bc";
-}
-.icon-soundcloud:before {
-  content: "\f1be";
-}
-.icon-codepen:before {
-  content: "\f1cb";
-}
-.icon-hackernews:before {
-  content: "\f1d4";
-}
-.icon-lastfm:before {
-  content: "\f202";
-}
-.icon-angellist:before {
-  content: "\f209";
-}
-.icon-facebook:before {
-  content: "\f230";
-}
-.icon-instagram:before {
-  content: "\e905";
-}
-.icon-trophy:before {
-  content: "\e605";
-}
-.icon-office:before {
-  content: "\e606";
-}
-.icon-clock:before {
-  content: "\e60a";
-}
-.icon-reddit:before {
-  content: "\e609";
-}
-.icon-profile:before {
-  content: "\e600";
-}
-.icon-tools:before {
-  content: "\e034";
-}
-.icon-location:before {
-  content: "\e602";
-}
-.icon-mail:before {
-  content: "\e603";
-}
-.icon-phone:before {
-  content: "\e03f";
-}
-.icon-newspaper:before {
-  content: "\e607";
-}
-.icon-chevron-down:before {
-  content: "\e60c";
-}
-.icon-chevron-up:before {
-  content: "\e60d";
-}
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
-.icon-board:before {
-  content: "\e608";
-}
-
-.relative {
-  position: relative;
-}
-.clear-margin {
-  margin: 0;
-}
-.space-top {
-  margin-top: 10px;
-}
-.space-right {
-  margin-right: 10px;
-}
-.space-bottom {
-  margin-bottom: 10px;
-}
-.mr-5 {
-  margin-right: 5px;
-}
-.mr-10 {
-  margin-right: 10px;
-}
-.ml-5 {
-  margin-left: 5px;
-}
-.labels {
-  line-height: 2;
-}
-.label-keyword {
-  display: inline-block;
-  background: #7eb0db;
-  color: white;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #357ebd;
-  margin-right: 5px;
-}
-.label-keyword:last-child {
-  margin-right: 0;
-}
-.label-keyword p {
-  margin: 0;
-}
-.label-keyword a {
-  color: white;
-}
-.label-keyword a:hover {
-  text-decoration: none;
-}
-.link-disguise {
-  color: inherit;
-}
-.link-disguise:hover {
-  color: inherit;
-}
-.clear-margin {
-  margin: 0;
-}
-@media (max-width: 992px) {
-  .clear-margin-sm {
-    margin-bottom: 0;
-  }
-}
-.fs-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-.fs-2x {
-  font-size: 2em;
-}
-.fs-3x {
-  font-size: 3em;
-}
-.fs-4x {
-  font-size: 4em;
-}
-.btn-circle-sm {
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  text-align: center;
-  padding: 0;
-  outline: none !important;
-}
-/* the version when the icon file is last updated */
-@font-face {
-  font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-[class^="icon-"],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'jst-elegant' !important;
-}
-body {
-  font-family: 'Lato';
-  background: #f0f0f0;
-  color: #333;
-}
-.main {
-  padding: 5px;
-}
-.card {
-  background: white;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  min-height: 300px;
-  padding: 10px 0;
-}
-.card-nested {
-  min-height: 0;
-  border-width: 1px 0 0 0;
-}
-.card-nested:before,
-.card-nested:after {
-  content: " ";
-  display: table;
-}
-.card-nested:after {
-  clear: both;
-}
-@media (max-width: 480px) {
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.background-card {
-  padding: 10px 20px;
-}
-.card-wrapper {
-  padding: 5px;
-}
-@media (max-width: 992px) {
-  .card-wrapper {
-    float: none !important;
-  }
-}
-.background-details .detail {
-  display: table;
-}
-.background-details .detail .icon {
-  min-width: 45px;
-  max-width: 45px;
-  text-align: center;
-}
-.background-details .detail .info {
-  width: 100%;
-}
-.background-details .detail .title,
-.background-details .detail .icon {
-  color: #707070;
-}
-.background-details .detail .mobile-title {
-  display: none;
-}
-@media (max-width: 480px) {
-  .background-details .detail .mobile-title {
-    display: inline-block;
-    margin-left: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-}
-.background-details .detail .icon,
-.background-details .detail .info {
-  display: table-cell;
-  padding: 0 10px;
-}
-@media (max-width: 480px) {
-  .background-details .detail {
-    display: block;
-  }
-  .background-details .detail .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .detail .icon,
-  .background-details .detail .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .detail .title {
-    display: none;
-  }
-}
-.info .content.has-sidebar {
-  width: 80%;
-  box-sizing: border-box;
-  float: left;
-  padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
-}
-@media (max-width: 992px) {
-  .info .content.has-sidebar {
-    width: 100%;
-    border-right: 0;
-  }
-}
-@media (max-width: 480px) {
-  .info .content.has-sidebar {
-    padding: 0 2px;
-  }
-}
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-}
-.current-event {
-  font-size: 8px;
-  color: #5ACE24;
-  position: absolute;
-  right: 100%;
-  top: 4px;
-  left: -10px;
-}
-.mop-wrapper > p:last-child {
-  margin: 0;
-}
-/*
-    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
-*/
-.floating-nav-trigger {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  -webkit-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  background-color: white;
-  font-size: 1.5em;
-  color: #357ebd;
-  z-index: 100;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  text-decoration: none !important;
-}
-.floating-nav-trigger > [class^="icon-"],
-.floating-nav-trigger [class*=" icon-"],
-.floating-nav-trigger > .close-icon {
-  line-height: 50px;
-}
-.floating-nav-trigger .close-icon {
-  display: none;
-}
-.floating-nav-trigger:hover {
-  color: #1f496e;
-  background-color: #e6e6e6;
-}
-.floating-nav-trigger.is-open {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.floating-nav-trigger.is-open .close-icon {
-  display: inherit;
-}
-.floating-nav-trigger.is-open .icon-bars {
-  display: none;
-}
-.floating-nav-trigger.is-open:hover {
-  background-color: white;
-}
-.floating-nav {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-  -o-transition: transform 0.3s, visibility 0s 0.3s;
-  transition: transform 0.3s, visibility 0s 0.3s;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  position: fixed;
-  z-index: 50;
-  right: 10px;
-  bottom: 10px;
-  background-color: white;
-  width: 90%;
-  max-width: 400px;
-  visibility: hidden;
   overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
 }
-.floating-nav ul {
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
   font-size: 1.2em;
   margin: 0;
+  padding: 0;
+  font-weight: 700;
 }
-.floating-nav ul li {
-  border-bottom: 1px solid #eff2f6;
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
 }
-.floating-nav ul li a {
-  padding: 20px;
-  text-decoration: none;
-  color: #357ebd;
-  display: block;
+
+.job{
+  margin-bottom: 15px;
 }
-.floating-nav ul li a:hover {
-  color: #1f496e;
-}
-.floating-nav ul li:last-child {
-  border-bottom: 0;
-}
-.floating-nav.is-visible {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: transform 0.3s, visibility 0s 0s;
-  -o-transition: transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-  visibility: visible;
-}
-@media (max-width: 992px) {
-  .profile-card-wrapper {
-    position: relative;
-  }
-}
-.profile-card-wrapper .profile-card {
+.job .details {
+  margin-left: 3%;
+  width: 95%;
   padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
-.profile-pic {
-  padding: 20px 0;
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
 }
-@media (max-width: 992px) {
-  .profile-pic {
-    padding: 10px 0;
-  }
+.job .year{
+  opacity: 0.7;
 }
-.profile-pic img {
-  width: 100px;
-  height: 100px;
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
 }
-@media (max-width: 992px) {
-  .name {
-    margin-top: 10px;
-  }
+.job .description{
+  line-height: 1.5em;
 }
-@media (max-width: 768px) {
-  .contact-details {
-    text-align: center;
-  }
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
 }
-.contact-details .detail {
-  display: table;
-  padding: 10px 0;
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
 }
-.contact-details .detail .icon {
-  padding: 0 10px;
-  color: #707070;
+.publication {
+  margin-bottom: 0;
 }
-@media (max-width: 992px) {
-  .contact-details .detail .icon {
-    padding: 0 5px 0 0;
-  }
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
 }
-.contact-details .detail .info {
-  font-size: 0.8em;
+.publication .year{
+    opacity: 0.7;
 }
-.contact-details .detail .icon,
-.contact-details .detail .info {
-  display: table-cell;
-  vertical-align: middle;
+.publication p{
+  margin: 0;
+  padding-top: 10px;
 }
-@media (max-width: 768px) {
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
+.contact-item{
+  width: 100%;
+  float: left;
 }
-@media (max-width: 992px) {
-  .contact-details .detail {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 10px;
-  }
-  .contact-details .detail .icon,
-  .contact-details .detail .info {
-    display: inline-block;
-  }
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
 }
-@media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
-  }
+.contact-item:last-child .icon{
+  border-bottom: none;
 }
-.social-links {
-  line-height: 2.5;
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
 }
-.social-link {
-  margin-left: 5px;
-  min-width: 35px;
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
   display: inline-block;
-}
-.social-link:first-child {
-  margin-left: 0;
-}
-.social-link:hover {
-  text-decoration: none;
-}
-.link-github {
-  color: #454545;
-}
-.link-github:hover,
-.link-github:focus {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-.link-twitter {
-  color: #33ccff;
-}
-.link-twitter:hover,
-.link-twitter:focus {
-  text-decoration: none;
-  color: #00bfff;
-}
-.link-blog {
-  color: #f36f24;
-}
-.link-blog:hover,
-.link-blog:focus {
-  text-decoration: none;
-  color: #d8560c;
-}
-.link-linkedin {
-  color: #007bb6;
-}
-.link-linkedin:hover,
-.link-linkedin:focus {
-  text-decoration: none;
-  color: #005983;
-}
-.link-skype {
-  color: #12A5F4;
-}
-.link-skype:hover,
-.link-skype:focus {
-  text-decoration: none;
-  color: #0986ca;
-}
-.link-instagram {
-  color: #e4405f;
-}
-.link-instagram:hover,
-.link-instagram:focus {
-  text-decoration: none;
-  color: #d31e40;
-}
-.link-stackoverflow {
-  color: #8e8e92;
-}
-.link-stackoverflow:hover,
-.link-stackoverflow:focus {
-  text-decoration: none;
-  color: #747479;
-}
-.link-stackexchange {
-  color: #62b0df;
-}
-.link-stackexchange:hover,
-.link-stackexchange:focus {
-  text-decoration: none;
-  color: #389bd6;
-}
-.link-lastfm {
-  color: #d12127;
-}
-.link-lastfm:hover,
-.link-lastfm:focus {
-  text-decoration: none;
-  color: #a51a1f;
-}
-.link-soundcloud {
-  color: #e8822d;
-}
-.link-soundcloud:hover,
-.link-soundcloud:focus {
-  text-decoration: none;
-  color: #cc6916;
-}
-.link-googleplus {
-  color: #dd4b39;
-}
-.link-googleplus:hover,
-.link-googleplus:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-youtube {
-  color: #dd4b39;
-}
-.link-youtube:hover,
-.link-youtube:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-pinterest {
-  color: #bd091f;
-}
-.link-pinterest:hover,
-.link-pinterest:focus {
-  text-decoration: none;
-  color: #8c0717;
-}
-.link-gratipay {
-  color: #630;
-}
-.link-gratipay:hover,
-.link-gratipay:focus {
-  text-decoration: none;
-  color: #331a00;
-}
-.link-vimeo {
-  color: #17b3e8;
-}
-.link-vimeo:hover,
-.link-vimeo:focus {
-  text-decoration: none;
-  color: #128fba;
-}
-.link-behance {
-  color: #2c98cf;
-}
-.link-behance:hover,
-.link-behance:focus {
-  text-decoration: none;
-  color: #2379a5;
-}
-.link-codepen {
-  color: #1c1c1c;
-}
-.link-codepen:hover,
-.link-codepen:focus {
-  text-decoration: none;
-  color: #020202;
-}
-.link-foursquare {
-  color: #fa4778;
-}
-.link-foursquare:hover,
-.link-foursquare:focus {
-  text-decoration: none;
-  color: #f91554;
-}
-.link-reddit {
-  color: #545454;
-}
-.link-reddit:hover,
-.link-reddit:focus {
-  text-decoration: none;
-  color: #3b3b3b;
-}
-.link-spotify {
-  color: #acd200;
-}
-.link-spotify:hover,
-.link-spotify:focus {
-  text-decoration: none;
-  color: #829f00;
-}
-.link-tumblr {
-  color: #2d4661;
-}
-.link-tumblr:hover,
-.link-tumblr:focus {
-  text-decoration: none;
-  color: #1d2d3e;
-}
-.link-dribbble {
-  color: #ce366f;
-}
-.link-dribbble:hover,
-.link-dribbble:focus {
-  text-decoration: none;
-  color: #a82959;
-}
-.link-facebook {
-  color: #4b6daa;
-}
-.link-facebook:hover,
-.link-facebook:focus {
-  text-decoration: none;
-  color: #3b5687;
-}
-.link-angellist {
-  color: black;
-}
-.link-angellist:hover,
-.link-angellist:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.link-bitbucket {
-  color: #205081;
-}
-.link-bitbucket:hover,
-.link-bitbucket:focus {
-  text-decoration: none;
-  color: #163758;
-}
-.link-hackernews {
-  color: #ff6600;
-}
-.link-hackernews:hover,
-.link-hackernews:focus {
-  text-decoration: none;
-  color: #cc5200;
-}
-.link-exercism {
-  color: #d81d4e;
-}
-.link-exercism:hover,
-.link-exercism:focus {
-  text-decoration: none;
-  color: #ab173e;
-}
-.link-blogger {
-  color: #FF9234;
-}
-.link-blogger:hover,
-.link-blogger:focus {
-  text-decoration: none;
-  color: #ff7701;
-}
-.link-medium {
-  color: #00AB6C;
-}
-.link-medium:hover,
-.link-medium:focus {
-  text-decoration: none;
-  color: #00784c;
-}
-.link-flickr {
-  color: black;
-}
-.link-flickr:hover,
-.link-flickr:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.link-telegram {
-  color: #3BABDD;
-}
-.link-telegram:hover,
-.link-telegram:focus {
-  text-decoration: none;
-  color: #2291c3;
-}
-.card-skills {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
   position: relative;
+  font-size: .85em;
 }
 .skill-level {
-  border-radius: 3px;
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+  margin: 1px 10px;
 }
-.skill-level .skill-progress {
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
   position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
-}
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
-}
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
-}
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
-}
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
-}
-.skill-info {
-  margin-left: 15px;
-}
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
-}
-.icon-meetup .path2:before {
-  margin-left: 0;
-}
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-  .profile-card {
-    text-align: center;
-  }
-  .profile-pic {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .profile-pic img {
-    border-radius: 0;
-  }
-  .name-and-profession {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-  }
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 25%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0;
-  }
-  .floating-nav,
-  .floating-nav-trigger {
-    display: none;
-  }
-  .pagebreak {
-    page-break-before: always;
-  }
-}
-</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Drew Ayling" src="https://avatars.githubusercontent.com/u/8107880?v=4" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Drew Ayling</b></h3><h5 class="text-muted" itemprop="jobTitle">DevOps Connoisseur, Python Enthusiast, System Architect</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Denver Metro Area, Colorado</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:dsayling@gmail.com" itemprop="email">dsayling@gmail.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/dsayling" target="_blank" data-toggle="tooltip" title="Drew Ayling on GitHub"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/drew-ayling" target="_blank" data-toggle="tooltip" title="Drew Ayling on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in DevOps, Software Architecture, Automated Software Testing, Software Delivery, and Compliance Testing. Core values in product focused delivery and bridging communication gaps between development, quality, release, and support in Enterprise agile environments. Likes the feel of startups. macOS/Linux guy that runs WSL if I must. Python Developer that used to dabble in C++, Perl, and JS. DevOps is for the enterprise and for the developer. Believer in delivering value to customers, whether internal or external. I love spending my days helping people.</p>
-</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Staff Software Engineer</strong>,&nbsp;<a href="http://ford.com" target="_blank">Ford Motor Company</a></p><p class="text-muted"><small><span class="space-right">Apr, 2023 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Replace this tiny tool called PREEVision</p>
-</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Staff Software Engineer</strong>,&nbsp;<a href="http://teladochealth.com" target="_blank">Teladoc Health</a></p><p class="text-muted"><small><span class="space-right">Mar, 2021 - Apr, 2023</span><span><i class="icon-clock mr-5"></i>2 years 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Leading automation architecture team for the chronic care management group. Supporting test reporting, CI integrations, testing libraries, development pipelines and more.</p>
-</div><ul><li class="mop-wrapper"><p>Leading the automation architecture team to re-architect existing test frameworks to align newly acquired product’s delivery with the larger Teladoc org to reduce automation duplication and scale product delivery.</p>
-</li><li class="mop-wrapper"><p>Leading an automation guild to present vision, intent, best practices, and architectural runway for testing and automation.</p>
-</li><li class="mop-wrapper"><p>Created automated tooling to connect Teladoc’s automated test cases with TestRail’s test case management software to measure requirements and functional coverage. Contributing to open source projects to support this effort.</p>
-</li><li class="mop-wrapper"><p>Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.</p>
-</li><li class="mop-wrapper"><p>Creating and maintaining test automation libraries for Livongo (Chronic Care Management) (acquired by Teladoc in 2020) products including web, mobile, backend, and ETL.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Community &amp; Partner Engineer</strong>,&nbsp;<a href="http://circleci.dev" target="_blank">CircleCI</a></p><p class="text-muted"><small><span class="space-right">Jun, 2020 - Mar, 2021</span><span><i class="icon-clock mr-5"></i>9 months</span></small></p><div class="mop-wrapper space-bottom"><p>Working with customers and partners in our open-source community to produce and maintain CircleCI ecosystem assets.</p>
-</div><ul><li class="mop-wrapper"><p>Launched the CircleCI Developer Hub, a K8s microsite for CircleCI assets (Docker images and CI integrations), as a full-stack developer in React and Go.</p>
-</li><li class="mop-wrapper"><p>Created and maintained CI libraries for dozens of languages and frameworks, e.g. Ruby, GKE, Python, Terraform, used by thousands of runs daily.</p>
-</li><li class="mop-wrapper"><p>Supported open source community Docker images spanning various languages and frameworks, e.g. Python, Ruby, Android, Selenium, for use on CircleCI, each being used in almost 100,000 runs a week.</p>
-</li><li class="mop-wrapper"><p>Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.</p>
-</li><li class="mop-wrapper"><p>Primary lead on restructuring CircleCI sample apps and configuration files to improve CircleCI onboarding experience.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Sr. Software Engineer</strong>,&nbsp;<a href="https://docs.netapp.com/us-en/element-software-123/storage/concept_intro_solidfire_system_overview.html" target="_blank">NetApp - SolidFire</a></p><p class="text-muted"><small><span class="space-right">Jun, 2019 - Jun, 2020</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>DevOps Architect for the NetApp/SoldFire AFA and HCI product. Automation Architect.</p>
-</div><ul><li class="mop-wrapper"><p>Architected transition of 1000+ test cases from legacy framework to new automated CI driven testing framework.</p>
-</li><li class="mop-wrapper"><p>Architected new continuous integration and delivery process to parallelize system value delivery, remove circular dependencies and decreased build and test time by a factor of 4.</p>
-</li><li class="mop-wrapper"><p>Architected end to end container and Kubernetes based serverless testing solution for disparate disconnected system tests that removed hundreds of manual hours for each release.</p>
-</li><li class="mop-wrapper"><p>Coached other system architects in scaled agile best practices to enable predictable planning by reducing lead time in exploration phase by 75%.</p>
-</li><li class="mop-wrapper"><p>Architected organizational value stream alignment with other system architects and SAFe practitioners to restructure the teams around value in order to increase delivery to the customer by a factor of 6.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;<a href="https://docs.netapp.com/us-en/element-software-123/storage/concept_intro_solidfire_system_overview.html" target="_blank">NetApp - SolidFire</a></p><p class="text-muted"><small><span class="space-right">Jul, 2015 - Jun, 2019</span><span><i class="icon-clock mr-5"></i>3 years 11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Started at SolidFire pre-acquisition, seeing the changes of small start-up to large enterprise from a test automation engineer's pespective</p>
-</div><ul><li class="mop-wrapper"><p>Led software test team in developing complex automated tests and test cases for core SolidFire product features in python and pytest</p>
-</li><li class="mop-wrapper"><p>Scrum master, architect and product owner for re-architecture of internal legacy automation python code base</p>
-</li><li class="mop-wrapper"><p>Automated systems administration tasks such as system monitoring, report generation, code deployment, package management, and server maintenance</p>
-</li><li class="mop-wrapper"><p>Designed and developed REST API SDK for external test case management software for use across multiple teams.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Research Engineer</strong>,&nbsp;<a href="http://swri.org" target="_blank">Southwest Research Institute</a></p><p class="text-muted"><small><span class="space-right">Sep, 2014 - Jul, 2015</span><span><i class="icon-clock mr-5"></i>10 months</span></small></p><div class="mop-wrapper space-bottom"><p>Continued standards developement and began taking leadership oppurtunities within the project space.</p>
-</div><ul><li class="mop-wrapper"><p>Assisted in standards development for a SOAP / UDP-multicast / UDP-syslog based communications architecture for US Army ground combat vehicles known as VICTORY</p>
-</li><li class="mop-wrapper"><p>Software team lead for the Army’s Industry Network Integration Evaluation Demonstration to provide VICTORY Capabilities in an operational environment</p>
-</li><li class="mop-wrapper"><p>Project Manager for a $50k internal research project to develop cost effective, micro embedded VICTORY adapters</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Engineer</strong>,&nbsp;<a href="http://swri.org" target="_blank">Southwest Research Institute</a></p><p class="text-muted"><small><span class="space-right">Jan, 2012 - Sep, 2014</span><span><i class="icon-clock mr-5"></i>2 years 8 months</span></small></p><div class="mop-wrapper space-bottom"><p>First position post graduation. Worked to test and integrate boost/libqt C++ code base and real systems on vehicles.</p>
-</div><ul><li class="mop-wrapper"><p>Led software validation experiments developing software components to demonstrate VICTORY Specifications.</p>
-</li><li class="mop-wrapper"><p>Assisted in system integration for US Army field demo of situation awareness vehicle</p>
-</li><li class="mop-wrapper"><p>Assistant project manager and engineer for a combat vehicle high performance video bus architecture.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Intern</strong>,&nbsp;<a href="http://xfab.com" target="_blank">XFAB</a></p><p class="text-muted"><small><span class="space-right">Jan, 2012 - Jun, 2012</span><span><i class="icon-clock mr-5"></i>5 months</span></small></p><div class="mop-wrapper space-bottom"><p>High voltage and GaN substrate applied research</p>
-</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Development</strong><div class="space-top labels"><span class="label label-keyword"><p>Python</p>
-</span><span class="label label-keyword"><p>Typescript / React</p>
-</span><span class="label label-keyword"><p>Go</p>
-</span><span class="label label-keyword"><p>Bash</p>
-</span><span class="label label-keyword"><p>Linux / OSX</p>
-</span><span class="label label-keyword"><p>Docker / Kubernetes</p>
-</span><span class="label label-keyword"><p>Saltstack / Ansible / Terraform</p>
-</span><span class="label label-keyword"><p>Jenkins / CircleCI / Github Actions</p>
-</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Competencies</strong><div class="space-top labels"><span class="label label-keyword"><p>DevOps</p>
-</span><span class="label label-keyword"><p>Value Stream</p>
-</span><span class="label label-keyword"><p>Process Automation</p>
-</span><span class="label label-keyword"><p>Web Services</p>
-</span><span class="label label-keyword"><p>Open Standards</p>
-</span><span class="label label-keyword"><p>Software Testing</p>
-</span><span class="label label-keyword"><p>Scaled Agile / SAFe</p>
-</span><span class="label label-keyword"><p>System Architecture</p>
-</span><span class="label label-keyword"><p>Storage Appliances</p>
-</span><span class="label label-keyword"><p>Embedded Systems</p>
-</span><span class="label label-keyword"><p>Software Integration</p>
-</span><span class="label label-keyword"><p>Value Streams</p>
-</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Electrical Engineering, Bachelor,&nbsp;</strong>Texas Tech University</p><p class="text-muted"><small> - May, 2012</small></p><i>Magna Cum Laude</i><div class="space-top labels"><span class="label label-keyword"><p>Mathematics -  Minor</p>
-</span></div></div></li></ul></div></div></div><div class="detail" id="volunteer-work"><div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span></div><div class="info"><h4 class="title text-uppercase">Volunteer Work</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Volunteer, </strong>Historic Boulder</p><p class="text-muted"><small>Nov, 2019 - Feb, 2021</small></p><div class="mop-wrapper"><p>Event volunteer and tech support volunteer</p>
-</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Volunteer Judge, </strong>Alamo Regional Science Fair</p><p class="text-muted"><small>Jun, 2013 - Feb, 2014</small></p><div class="mop-wrapper"><p>Volunteered at multiple science fairs judging Math, Engineering, and Computer Science projects.</p>
-</div></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>Hiking</strong></p></li><li class="card card-nested"><p><strong>Baking</strong></p></li><li class="card card-nested"><p><strong>Pizza</strong></p></li><li class="card card-nested"><p><strong>My Dogs</strong></p></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">Available upon request<blockquote class="quote"><div class="mop-wrapper"></div></blockquote></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
-  var toggleFloatingMenu = function() {
-    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-  };
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
 
-  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-  $( "[data-toggle=tooltip]" ).tooltip();
-  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-    e.preventDefault();
-    toggleFloatingMenu();
-  });
-  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;b56f93a3cccf340ec9647bc16bdb1ae3?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Drew Ayling<br><span>DevOps Connoisseur, Python Enthusiast, System Architect</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in DevOps, Software Architecture, Automated Software Testing, Software Delivery, and Compliance Testing. Core values in product focused delivery and bridging communication gaps between development, quality, release, and support in Enterprise agile environments. Likes the feel of startups. macOS/Linux guy that runs WSL if I must. Python Developer that used to dabble in C++, Perl, and JS. DevOps is for the enterprise and for the developer. Believer in delivering value to customers, whether internal or external. I love spending my days helping people.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Ford Motor Company
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;ford.com" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;ford.com</a>
+                    </div>
+                    <div class="year">April 2023 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Staff Software Engineer</div>
+                    <div class="description">
+                      Replace this tiny tool called PREEVision
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Teladoc Health
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;teladochealth.com" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;teladochealth.com</a>
+                    </div>
+                    <div class="year">March 2021 – April 2023</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Staff Software Engineer</div>
+                    <div class="description">
+                      Leading automation architecture team for the chronic care management group. Supporting test reporting, CI integrations, testing libraries, development pipelines and more.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Leading the automation architecture team to re-architect existing test frameworks to align newly acquired product’s delivery with the larger Teladoc org to reduce automation duplication and scale product delivery.</li>
+                        <li class="list-group-item">Leading an automation guild to present vision, intent, best practices, and architectural runway for testing and automation.</li>
+                        <li class="list-group-item">Created automated tooling to connect Teladoc’s automated test cases with TestRail’s test case management software to measure requirements and functional coverage. Contributing to open source projects to support this effort.</li>
+                        <li class="list-group-item">Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.</li>
+                        <li class="list-group-item">Creating and maintaining test automation libraries for Livongo (Chronic Care Management) (acquired by Teladoc in 2020) products including web, mobile, backend, and ETL.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      CircleCI
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;circleci.dev" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;circleci.dev</a>
+                    </div>
+                    <div class="year">June 2020 – March 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Community &amp; Partner Engineer</div>
+                    <div class="description">
+                      Working with customers and partners in our open-source community to produce and maintain CircleCI ecosystem assets.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Launched the CircleCI Developer Hub, a K8s microsite for CircleCI assets (Docker images and CI integrations), as a full-stack developer in React and Go.</li>
+                        <li class="list-group-item">Created and maintained CI libraries for dozens of languages and frameworks, e.g. Ruby, GKE, Python, Terraform, used by thousands of runs daily.</li>
+                        <li class="list-group-item">Supported open source community Docker images spanning various languages and frameworks, e.g. Python, Ruby, Android, Selenium, for use on CircleCI, each being used in almost 100,000 runs a week.</li>
+                        <li class="list-group-item">Worked with partner organizations and customers to create and maintain their own CI libraries for CircleCI, ranging from go-to-market assistance to paired programming with partner company developers.</li>
+                        <li class="list-group-item">Primary lead on restructuring CircleCI sample apps and configuration files to improve CircleCI onboarding experience.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      NetApp - SolidFire
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;docs.netapp.com&#x2F;us-en&#x2F;element-software-123&#x2F;storage&#x2F;concept_intro_solidfire_system_overview.html" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;docs.netapp.com&#x2F;us-en&#x2F;element-software-123&#x2F;storage&#x2F;concept_intro_solidfire_system_overview.html</a>
+                    </div>
+                    <div class="year">June 2019 – June 2020</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Sr. Software Engineer</div>
+                    <div class="description">
+                      DevOps Architect for the NetApp/SoldFire AFA and HCI product. Automation Architect.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Architected transition of 1000+ test cases from legacy framework to new automated CI driven testing framework.</li>
+                        <li class="list-group-item">Architected new continuous integration and delivery process to parallelize system value delivery, remove circular dependencies and decreased build and test time by a factor of 4.</li>
+                        <li class="list-group-item">Architected end to end container and Kubernetes based serverless testing solution for disparate disconnected system tests that removed hundreds of manual hours for each release.</li>
+                        <li class="list-group-item">Coached other system architects in scaled agile best practices to enable predictable planning by reducing lead time in exploration phase by 75%.</li>
+                        <li class="list-group-item">Architected organizational value stream alignment with other system architects and SAFe practitioners to restructure the teams around value in order to increase delivery to the customer by a factor of 6.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      NetApp - SolidFire
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;docs.netapp.com&#x2F;us-en&#x2F;element-software-123&#x2F;storage&#x2F;concept_intro_solidfire_system_overview.html" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;docs.netapp.com&#x2F;us-en&#x2F;element-software-123&#x2F;storage&#x2F;concept_intro_solidfire_system_overview.html</a>
+                    </div>
+                    <div class="year">July 2015 – June 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      Started at SolidFire pre-acquisition, seeing the changes of small start-up to large enterprise from a test automation engineer's pespective
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Led software test team in developing complex automated tests and test cases for core SolidFire product features in python and pytest</li>
+                        <li class="list-group-item">Scrum master, architect and product owner for re-architecture of internal legacy automation python code base</li>
+                        <li class="list-group-item">Automated systems administration tasks such as system monitoring, report generation, code deployment, package management, and server maintenance</li>
+                        <li class="list-group-item">Designed and developed REST API SDK for external test case management software for use across multiple teams.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Southwest Research Institute
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;swri.org" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;swri.org</a>
+                    </div>
+                    <div class="year">September 2014 – July 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Research Engineer</div>
+                    <div class="description">
+                      Continued standards developement and began taking leadership oppurtunities within the project space.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Assisted in standards development for a SOAP / UDP-multicast / UDP-syslog based communications architecture for US Army ground combat vehicles known as VICTORY</li>
+                        <li class="list-group-item">Software team lead for the Army’s Industry Network Integration Evaluation Demonstration to provide VICTORY Capabilities in an operational environment</li>
+                        <li class="list-group-item">Project Manager for a $50k internal research project to develop cost effective, micro embedded VICTORY adapters</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Southwest Research Institute
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;swri.org" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;swri.org</a>
+                    </div>
+                    <div class="year">January 2012 – September 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Engineer</div>
+                    <div class="description">
+                      First position post graduation. Worked to test and integrate boost/libqt C++ code base and real systems on vehicles.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Led software validation experiments developing software components to demonstrate VICTORY Specifications.</li>
+                        <li class="list-group-item">Assisted in system integration for US Army field demo of situation awareness vehicle</li>
+                        <li class="list-group-item">Assistant project manager and engineer for a combat vehicle high performance video bus architecture.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      XFAB
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;xfab.com" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;xfab.com</a>
+                    </div>
+                    <div class="year">January 2012 – June 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Intern</div>
+                    <div class="description">
+                      High voltage and GaN substrate applied research
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Historic Boulder</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;historicboulder.org&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;historicboulder.org&#x2F;</a>
+                    </div>
+                    <div class="year">November 2019 – February 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Volunteer</div>
+                    <div class="description">
+                      Event volunteer and tech support volunteer
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Alamo Regional Science Fair</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;arase.org&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;arase.org&#x2F;</a>
+                    </div>
+                    <div class="year">June 2013 – February 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Volunteer Judge</div>
+                    <div class="description">
+                      Volunteered at multiple science fairs judging Math, Engineering, and Computer Science projects.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Denver Metro Area, Colorado</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:dsayling@gmail.com" target="_blank">dsayling@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;dsayling.github.io&#x2F;" target="_blank">https:&#x2F;&#x2F;dsayling.github.io&#x2F;</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;dsayling" target="_blank">dsayling</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;drew-ayling" target="_blank">Drew Ayling</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left"> 2012</div>
+                <div class="description pull-right">
+                  <h3>Texas Tech University</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor</p>
+                  <p>Electrical Engineering</p>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Mathematics -  Minor</li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">Typescript / React</span>
+                <span class= "skill badge">Go</span>
+                <span class= "skill badge">Bash</span>
+                <span class= "skill badge">Linux / OSX</span>
+                <span class= "skill badge">Docker / Kubernetes</span>
+                <span class= "skill badge">Saltstack / Ansible / Terraform</span>
+                <span class= "skill badge">Jenkins / CircleCI / Github Actions</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Competencies
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">DevOps</span>
+                <span class= "skill badge">Value Stream</span>
+                <span class= "skill badge">Process Automation</span>
+                <span class= "skill badge">Web Services</span>
+                <span class= "skill badge">Open Standards</span>
+                <span class= "skill badge">Software Testing</span>
+                <span class= "skill badge">Scaled Agile / SAFe</span>
+                <span class= "skill badge">System Architecture</span>
+                <span class= "skill badge">Storage Appliances</span>
+                <span class= "skill badge">Embedded Systems</span>
+                <span class= "skill badge">Software Integration</span>
+                <span class= "skill badge">Value Streams</span>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Hiking
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Baking
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Pizza
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  My Dogs
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2><i class= "fas fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div></div>
+              <footer>
+                <a href="" target= "_blank">Available upon request</a>
+              </footer>
+            </blockquote><br>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  $("#remaining-profiles").on('show.bs.collapse', function() {
-    $( '.js-profiles-collapse > i' )
-      .removeClass( 'icon-chevron-down' )
-      .addClass( 'icon-chevron-up' );
-  });
-
-  $("#remaining-profiles").on('hidden.bs.collapse', function() {
-    $( '.js-profiles-collapse > i' )
-      .removeClass( 'icon-chevron-up' )
-      .addClass( 'icon-chevron-down' );
-  });
-});
-</script><script>WebFontConfig = {
-  google: { families: [ 'Lato:300,400,700:latin' ] }
-};
-(function() {
-  var wf = document.createElement('script');
-  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-  wf.type = 'text/javascript';
-  wf.async = 'true';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(wf, s);
-})();</script></body></html>
+  </body>
+</html>
