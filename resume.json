@@ -2,7 +2,7 @@
   "basics": {
     "name": "Drew Ayling",
     "label": "DevOps Connoisseur, Python Enthusiast, System Architect",
-    "picture": "avatar.jpg",
+    "picture": "https://avatars.githubusercontent.com/u/8107880?v=4",
     "email": "dsayling@gmail.com",
     "url": "https://dsayling.github.io/",
     "summary": "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in DevOps, Software Architecture, Automated Software Testing, Software Delivery, and Compliance Testing. Core values in product focused delivery and bridging communication gaps between development, quality, release, and support in Enterprise agile environments. Likes the feel of startups. macOS/Linux guy that runs WSL if I must. Python Developer that used to dabble in C++, Perl, and JS. DevOps is for the enterprise and for the developer. Believer in delivering value to customers, whether internal or external. I love spending my days helping people.",
@@ -61,7 +61,7 @@
   },{
     "name": "NetApp - SolidFire",
     "position": "Sr. Software Engineer",
-    "url": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "url": "https://docs.netapp.com/us-en/element-software-123/storage/concept_intro_solidfire_system_overview.html",
     "startDate": "2019-06-15",
     "endDate": "2020-06-08",
     "summary": "DevOps Architect for the NetApp/SoldFire AFA and HCI product. Automation Architect.",
@@ -75,7 +75,7 @@
   },{
     "name": "NetApp - SolidFire",
     "position": "Software Engineer",
-    "url": "http://netapp.com/us/products/storage-systems/all-flash-array/solidfire-scale-out.aspx",
+    "url": "https://docs.netapp.com/us-en/element-software-123/storage/concept_intro_solidfire_system_overview.html",
     "startDate": "2015-07-15",
     "endDate": "2019-06-15",
     "summary": "Started at SolidFire pre-acquisition, seeing the changes of small start-up to large enterprise from a test automation engineer's pespective",
@@ -126,15 +126,16 @@
     "organization": "Historic Boulder",
     "position": "Volunteer",
     "url": "http://historicboulder.org/",
-    "startDate": "2019-11-10",
+    "startDate": "2019-11",
+    "endDate": "2021-02",
     "summary": "Event volunteer and tech support volunteer",
     "highlights": []
   },{
     "organization": "Alamo Regional Science Fair",
     "position": "Volunteer Judge",
     "url": "http://arase.org/",
-    "startDate": "2013-06-15",
-    "endDate": "2014-02-15",
+    "startDate": "2013-06",
+    "endDate": "2014-02",
     "summary": "Volunteered at multiple science fairs judging Math, Engineering, and Computer Science projects.",
     "highlights": [
     ]
@@ -153,7 +154,6 @@
   "publications": [],
   "skills": [{
     "name": "Development",
-    "level": "Well enough",
       "keywords": [
         "Python", "Typescript / React", "Go", "Bash",
         "Linux / OSX",
@@ -164,7 +164,6 @@
   },
   {
   "name": "Competencies",
-  "level": "Well enough",
     "keywords": ["DevOps", "Value Stream", "Process Automation", "Web Services", "Open Standards",
       "Software Testing", "Scaled Agile / SAFe", "System Architecture", "Storage Appliances", "Embedded Systems", "Software Integration", "Value Streams"
     ]
